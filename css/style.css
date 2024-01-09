@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.hero{
+	width: 1536px;
+height: 1042px;
+display: flex;
+}
+.img__sect{
+	
+}
+.box__frst{
+	margin-top: 230px;
+	margin-left: 175px ;
+	margin-right: 175px;
+	flex-direction: column;
+  width: 404px;
+  height: 583px;
+}
+.box__sect{
+	width: 404px;
+	height: 583px;
+}
+.box__title{
+	color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box__text{
+	margin-top: 6px;
+	color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box__email{
+	margin-top: 60px;
+	color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box__forgot{
+	margin-top: 11px;
+	color: var(--action-sec, #0C2A92);
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 317px;
+}
+.box__password{
+	color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.box__check{
+	display: flex;
+	margin-top: 20px;
+}
+.box__inEmail{
+	border-radius: 10px;
+border: 1px solid #D9D9D9;
+display: flex;
+width: 404px;
+height: 32px;
+padding: 10px 0px 10px 10px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.box__inPass{
+	margin-top: 5px;
+	display: flex;
+	width: 404px;
+	height: 32px;
+	padding: 10px 0px 10px 10px;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	border: 1px solid #D9D9D9;
+}
+.check__sect{
+	border-radius: 2px;
+border: 1px solid #000;
+}
+.check__text{
+	color: #000;
+font-family: Poppins;
+font-size: 9px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 5px;
+}
+.sect__btn{
+
+
+}
+ 
+.button{
+	margin-top: 20px;
+	display: flex;
+width: 404px;
+height: 32px;
+padding: 10px 0px 10px 10px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+border-radius: 10px;
+border: 1px solid #3A5B22;
+background: #3A5B22;
+color: #FFF;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ 
+ .img__or{
+	margin-top: 35px;
+ }
+ .sign__in{
+	margin-top: 90px;
+ }
+ .sign__up{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 30px;
+ }
+ a{
+	text-decoration: none;
+ }
+ .sign__title{
+	color: #000;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+ }
+ .sign__text{
+	color: #0F3DDE;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+ }
